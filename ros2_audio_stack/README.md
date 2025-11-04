@@ -27,6 +27,7 @@ ros2_audio_stack/
 └── setup.py / package.xml
 ```
 ## Notes
+- Your python version must be 3.12 or newer!
 - You must install required dependencies!
 - Download a Vosk model (command included in the setup section) and pass its path to the ASR node in the launch file or via parameter `--vosk-model-path`.
 - This is a pragmatic, *minimal* stack. Speaker diarization and robust emotion recognition require heavier models and are not included, but you can extend the `vad_node` to buffer segments per speaker or add `pyannote` for diarization.
