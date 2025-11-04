@@ -1,6 +1,6 @@
 This package provides a small ROS2 Rolling audio pipeline:
 
-## Paclage contents
+## Package contents
 - audio_capture: reads from microphone (sounddevice) and publishes raw audio frames on `audio/raw`.
 - audio_file_capture: alternative to audio_capture, used BY DEFAULT. Reads from file (default is the provided testfile_fixed.wav) and publishes raw audio frames on `audio/raw`.
 - vad_node: uses `webrtcvad` to detect speech frames, publishes speech frames on `audio/speech`.
