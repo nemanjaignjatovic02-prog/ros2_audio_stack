@@ -9,6 +9,7 @@ This package provides a small ROS2 Rolling audio pipeline:
 - recorder_node: saves transcripts and classifications to a local SQLite DB.
 
 ## Project structure
+```
 ros2_audio_stack/
 ├── launch/
 │   └── audio_stack_launch.py
@@ -24,7 +25,7 @@ ros2_audio_stack/
 │   └── speech_records.db
 ├── README.md
 └── setup.py / package.xml
-
+```
 ## Notes
 - You must install required dependencies!
 - Download a Vosk model (command included in the setup section) and pass its path to the ASR node in the launch file or via parameter `--vosk-model-path`.
